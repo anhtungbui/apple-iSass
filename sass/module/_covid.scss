@@ -1,0 +1,26 @@
+@use "../base/variables" as var;
+
+.covid {
+  margin-top: 44px;
+
+  background-color: var.$covid-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a:link,
+  a:visited {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  i {
+    font-size: 10px;
+    padding-left: 5px;
+    color: white;
+  }
+}

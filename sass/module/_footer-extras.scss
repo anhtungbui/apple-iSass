@@ -1,0 +1,55 @@
+@use '../base/variables' as var;
+
+.footer-extras {
+  //   padding: 34px 20px 21px;
+  margin: 34px 0 21px;
+
+  p {
+    color: var.$footnotes-text-grey;
+    margin-left: 20px;
+  }
+
+  a {
+    color: #515154;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: var.$text-black;
+  }
+
+  .foot-extras-up {
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var.$footer-hr-grey;
+
+    a {
+      color: var.$link-blue;
+    }
+  }
+
+  .foot-extras-bot {
+    margin-bottom: -15px;
+    margin-top: 5px;
+    // padding-left: 20px;
+
+    p,
+    section {
+      margin-right: 30px;
+      padding-bottom: 10px;
+      display: inline-block;
+    }
+
+    section a {
+      border-right: 1px solid var.$footer-hr-grey;
+      margin-right: 7px;
+      padding-left: 20px;
+      padding-right: 10px;
+    }
+
+    .foot-extras-country {
+      margin-left: 125px;
+    }
+  }
+}

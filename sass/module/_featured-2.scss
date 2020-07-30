@@ -1,0 +1,50 @@
+@use '../base/variables' as var;
+@use '../base/mixins' as *;
+
+.featured-2 {
+  background: var.$bg-grey;
+
+  .spacer {
+    background: var.$bg-grey;
+  }
+
+  .featured-2-content {
+    background: url(../../images/heroes/hero-ipad-pro-md.jpg) no-repeat bottom;
+    background-size: contain;
+
+    h2 {
+      @include set-text(var.$text-black, 44px);
+      font-weight: bold;
+      margin-top: -60px;
+    }
+
+    h3 {
+      @include set-text(var.$text-black, 24px);
+      font-weight: 300;
+      line-height: 28px;
+    }
+
+    .cta-links {
+      text-align: center;
+
+      a {
+        font-size: 21px;
+        color: var.$link-blue;
+
+        &:link,
+        &:visited {
+          text-decoration: none;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      i {
+        color: var.$link-blue;
+        padding: 10px;
+      }
+    }
+  }
+}

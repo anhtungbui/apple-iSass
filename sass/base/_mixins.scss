@@ -1,0 +1,14 @@
+@mixin sizing($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin outline($color: red) {
+  border: 1px solid $color;
+}
+
+@mixin set-text($color, $size, $align: center) {
+  color: $color;
+  font-size: $size;
+  text-align: $align;
+}
