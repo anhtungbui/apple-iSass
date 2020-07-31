@@ -1,0 +1,33 @@
+@use '../base/variables' as var;
+
+footer {
+    background-color: var.$footer-bg-grey;
+    font-size: 12px;
+    line-height: 1.33337;
+
+    .wrapper {
+        margin: 0 auto;
+        max-width: 980px;
+        height: 100%;
+
+        .footnotes {
+            color: var.$footnotes-text-grey;
+            border-bottom: 1px solid var.$footer-hr-grey;
+
+            p {
+                padding-bottom: 0.7em;
+                padding: 15px 20px;
+            }
+
+            a {
+                color: #515154;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+                color: var.$text-black;
+            }
+        }
+    }
+}

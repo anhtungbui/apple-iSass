@@ -1,0 +1,46 @@
+@use '../base/variables' as var;
+@use '../base/mixins' as *;
+
+.unit-2 {
+    background: url(../images/promos/promo-2.jpg) no-repeat bottom, var.$bg-grey;
+    background-size: contain;
+
+    .logo {
+        // width: 100%;
+        // height: 47px;
+
+        background: url(../images/logos/logo_apple-watch-5.png) no-repeat center;
+        background-size: contain;
+        margin-top: 50px;
+    }
+
+    h4 {
+        @include set-text(var.$text-black, 19px);
+        font-weight: 300;
+        line-height: 23px;
+        padding-top: 10px;
+    }
+
+    .cta-links {
+        text-align: center;
+
+        a {
+            font-size: 17px;
+            color: var.$link-blue;
+
+            &:link,
+            &:visited {
+                text-decoration: none;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        i {
+            color: var.$link-blue;
+            padding: 10px;
+        }
+    }
+}

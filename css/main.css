@@ -379,7 +379,7 @@ header .navbar-mobile {
   background: #131313;
 }
 .hero .hero-content {
-  background: url(../../images/heroes/hero-iphone-se-md-tall.jpg) no-repeat center;
+  background: url(../images/heroes/hero-iphone-se-md-tall.jpg) no-repeat center;
   background-size: contain;
 }
 .hero .hero-content h2 {
@@ -426,7 +426,7 @@ header .navbar-mobile {
   background: #fafafa;
 }
 .featured-1 .featured-1-content {
-  background: url(../../images/heroes/hero-iphone-11-md.jpg) no-repeat bottom;
+  background: url(../images/heroes/hero-iphone-11-md.jpg) no-repeat bottom;
   background-size: contain;
 }
 .featured-1 .featured-1-content h2 {
@@ -474,7 +474,7 @@ header .navbar-mobile {
   background: #fafafa;
 }
 .featured-2 .featured-2-content {
-  background: url(../../images/heroes/hero-ipad-pro-md.jpg) no-repeat bottom;
+  background: url(../images/heroes/hero-ipad-pro-md.jpg) no-repeat bottom;
   background-size: contain;
 }
 .featured-2 .featured-2-content h2 {
@@ -510,7 +510,7 @@ header .navbar-mobile {
 }
 
 .unit-1 {
-  background: url(../../images/promos/promo-1.jpg) no-repeat bottom, #fafafa;
+  background: url(../images/promos/promo-1.jpg) no-repeat bottom, #fafafa;
   background-size: 100%;
 }
 .unit-1 h4 {
@@ -540,11 +540,11 @@ header .navbar-mobile {
 }
 
 .unit-2 {
-  background: url(../../images/promos/promo-2.jpg) no-repeat bottom, #fafafa;
+  background: url(../images/promos/promo-2.jpg) no-repeat bottom, #fafafa;
   background-size: contain;
 }
 .unit-2 .logo {
-  background: url(../../images/logos/logo_apple-watch-5.png) no-repeat center;
+  background: url(../images/logos/logo_apple-watch-5.png) no-repeat center;
   background-size: contain;
   margin-top: 50px;
 }
@@ -575,7 +575,7 @@ header .navbar-mobile {
 }
 
 .unit-3 {
-  background: url(../../images/promos/promo-3.jpg) no-repeat bottom, #fafafa;
+  background: url(../images/promos/promo-3.jpg) no-repeat bottom, #fafafa;
   background-size: contain;
 }
 .unit-3 h4 {
@@ -613,17 +613,17 @@ header .navbar-mobile {
 }
 
 .unit-4 {
-  background: url(../../images/promos/promo-4.jpg) no-repeat top, #040304;
+  background: url(../images/promos/promo-4.jpg) no-repeat top, #040304;
   background-size: contain;
 }
 .unit-4 .logo:first-child {
-  background: url(../../images/logos/logo_apple-tv-plus.png) no-repeat center;
+  background: url(../images/logos/logo_apple-tv-plus.png) no-repeat center;
   background-size: contain;
   margin-top: 450px;
   margin-bottom: 13px;
 }
 .unit-4 .logo:nth-child(2) {
-  background: url(../../images/logos/logo-foundation.png) no-repeat center;
+  background: url(../images/logos/logo-foundation.png) no-repeat center;
   background-size: contain;
 }
 .unit-4 h5 {
@@ -653,7 +653,7 @@ header .navbar-mobile {
 }
 
 .unit-5 {
-  background: url(../../images/promos/promo-5.jpg) no-repeat bottom, #f1f1f3;
+  background: url(../images/promos/promo-5.jpg) no-repeat bottom, #f1f1f3;
   background-size: contain;
 }
 .unit-5 h5 {
@@ -683,7 +683,7 @@ header .navbar-mobile {
 }
 
 .unit-6 {
-  background: url(../../images/promos/promo-6.jpg) no-repeat bottom, #fafafa;
+  background: url(../images/promos/promo-6.jpg) no-repeat bottom, #fafafa;
   background-size: 100%;
 }
 .unit-6 h4 {

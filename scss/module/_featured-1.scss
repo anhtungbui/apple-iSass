@@ -1,0 +1,51 @@
+@use '../base/variables' as var;
+@use '../base/mixins' as *;
+
+.featured-1 {
+    background: #fafafa;
+
+    .featured-1-content {
+        background: url(../images/heroes/hero-iphone-11-md.jpg) no-repeat bottom;
+        background-size: contain;
+
+        h2 {
+            @include set-text(var.$text-black, 44px);
+            font-weight: bold;
+            padding-top: 70px;
+        }
+
+        h3 {
+            @include set-text(var.$text-black, 24px);
+            font-weight: 300;
+            line-height: 28px;
+        }
+
+        p {
+            @include set-text(var.$text-grey, 17px);
+            margin-top: 6.8px;
+        }
+
+        .cta-links {
+            text-align: center;
+
+            a {
+                font-size: 21px;
+                color: var.$link-blue;
+
+                &:link,
+                &:visited {
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            i {
+                color: var.$link-blue;
+                padding: 10px;
+            }
+        }
+    }
+}

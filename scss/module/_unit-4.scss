@@ -1,0 +1,50 @@
+@use '../base/variables' as var;
+@use '../base/mixins' as *;
+
+.unit-4 {
+    background: url(../images/promos/promo-4.jpg) no-repeat top,
+        var.$bg-black-foundation;
+    background-size: contain;
+
+    .logo:first-child {
+        background: url(../images/logos/logo_apple-tv-plus.png) no-repeat center;
+        background-size: contain;
+        margin-top: 450px;
+        margin-bottom: 13px;
+    }
+
+    .logo:nth-child(2) {
+        background: url(../images/logos/logo-foundation.png) no-repeat center;
+        background-size: contain;
+    }
+
+    h5 {
+        @include set-text(white, 19px);
+        font-weight: 300;
+        line-height: 23px;
+        padding-top: 13px;
+    }
+
+    .cta-links {
+        text-align: center;
+
+        a {
+            font-size: 17px;
+            color: var.$link-blue-lighter;
+
+            &:link,
+            &:visited {
+                text-decoration: none;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        i {
+            color: var.$link-blue;
+            padding: 10px;
+        }
+    }
+}

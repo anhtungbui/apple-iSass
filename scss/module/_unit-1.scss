@@ -1,0 +1,37 @@
+@use '../base/variables' as var;
+@use '../base/mixins' as *;
+
+.unit-1 {
+    background: url(../images/promos/promo-1.jpg) no-repeat bottom, var.$bg-grey;
+    background-size: 100%;
+
+    h4 {
+        @include set-text(var.$text-black, 32px);
+        font-weight: 500;
+        line-height: 36px;
+        padding-top: 45px;
+    }
+
+    .cta-links {
+        text-align: center;
+
+        a {
+            font-size: 17px;
+            color: var.$link-blue;
+
+            &:link,
+            &:visited {
+                text-decoration: none;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        i {
+            color: var.$link-blue;
+            padding: 10px;
+        }
+    }
+}
