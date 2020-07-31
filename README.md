@@ -16,7 +16,6 @@ scss
  ┣ layout
  ┃ ┗ _layout.scss
  ┣ module
- ┃ ┣ .DS_Store
  ┃ ┣ _covid.scss
  ┃ ┣ _featured-1.scss
  ┃ ┣ _featured-2.scss
@@ -32,7 +31,6 @@ scss
  ┃ ┣ _unit-4.scss
  ┃ ┣ _unit-5.scss
  ┃ ┗ _unit-6.scss
- ┣ .DS_Store
  ┗ main.scss
 ```
 
